@@ -1,0 +1,52 @@
+{
+    "name": "scottybo/textlocal",
+    "description": "Laravel Text Local Package",
+    "license": "MIT",
+    "keywords": [
+        "laravel textlocal",
+        "textlocal gateway",
+        "textlocal sms gateway",
+        "text local",
+        "laravel textlocal package"
+    ],
+    "authors": [
+        {
+            "name": "raojeet",
+            "email": "jeet.yadav25@gmail.com",
+            "homepage": "https://github.com/raojeet",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/raojeet/textlocal",
+    "keywords": ["Laravel", "TextLocal"],
+    "require": {
+        "illuminate/support": "~5",
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raojeet\\TextLocal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Raojeet\\TextLocal\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Raojeet\\TextLocal\\TextLocalServiceProvider"
+            ],
+            "aliases": {
+                "TextLocal": "Raojeet\\TextLocal\\Facades\\TextLocal"
+            }
+        }
+    }
+}
