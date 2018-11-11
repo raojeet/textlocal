@@ -15,7 +15,7 @@ composer require raojeet/textlocal
 ```php
 "require": {
     ...
-    "raojeet/textlocal": "1.3.*"
+    "raojeet/textlocal": "1.0.*"
 }
 ```
 **Step 2.** Add the "TextLocal" facade in your config/app.php file
