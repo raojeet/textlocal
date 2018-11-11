@@ -24,21 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Raojeet\\TextLocal\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Raojeet\\TextLocal\\Tests\\": "tests"
+            "App\\TextLocal\\" : "src"
         }
     },
     "extra": {
-        "laravel": {
+         "laravel": {
             "providers": [
-                "Raojeet\\TextLocal\\TextLocalServiceProvider"
+                "App\\TextLocal\\TextLocalServiceProvider"
             ],
             "aliases": {
-                "TextLocal": "Raojeet\\TextLocal\\Facades\\TextLocal"
+                "TextLocal": "App\\TextLocal\\Facades\\TextLocal"
             }
         }
     }

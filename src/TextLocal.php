@@ -1,6 +1,6 @@
 <?php
 
-namespace Raojeet\TextLocal;
+namespace App\TextLocal;
 
 class TextLocal {
 

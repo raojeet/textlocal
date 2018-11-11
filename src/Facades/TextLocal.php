@@ -1,6 +1,6 @@
 <?php
 
-namespace Raojeet\TextLocal\Facades;
+namespace App\TextLocal\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
